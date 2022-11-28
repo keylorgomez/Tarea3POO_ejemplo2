@@ -16,14 +16,7 @@ public class Principal {
         System.out.println(auto1.PrecioVenta());
         System.out.println(auto2.PrecioVenta());*/
 
-        Boletos b1=new Boletos(LocalDate.now().toString(),"207870914");
-        Boletos b2=new Boletos( LocalDate.now().toString(),"204360110");
-        Boletos b3=new Boletos( LocalDate.now().toString(),"205430920");
-        Boletos b4=new Boletos( LocalDate.now().toString(),"105510812");
-        System.out.println(b1);
-        System.out.println(b2);
-        System.out.println(b3);
-        System.out.println(b4);
+
 
 
 
