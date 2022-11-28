@@ -63,11 +63,10 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Auto{" +
-                "patente='" + placa + '\'' +
-                ", marca='" + marca + '\'' +
-                ", precio=" + precio +
-                ", color='" + color + '\'' +
-                '}';
+        return "Número de placa: " + placa + '\n' +
+                "Marca del carro: " + marca + '\n' +
+                "Precio inicial del carro: " + precio +'\n' +
+                "Color del vehículo: " + color + '\n' +
+                '\n';
     }
 }
